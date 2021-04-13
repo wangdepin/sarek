@@ -62,7 +62,8 @@ By default, the pipeline currently performs the following:
 * Base (Quality Score) Recalibration (`GATK BaseRecalibrator`, `GATK ApplyBQSR`)
 * Preprocessing quality control (`samtools stats`)
 * Preprocessing quality control (`Qualimap bamqc`)
-* Overall pipeline run summaries (`MultiQC`)
+* Overall pipeline run summaries (`MultiQC`) 
+* Add TMB calculation
 
 ## Documentation
 
